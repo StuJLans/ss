@@ -1,0 +1,28 @@
+"complex_modifications": {
+    "rules": [
+        {
+            "manipulators": [
+                {
+                    "description": "Change alt+ctrl to just ctrl",
+                    "from": {
+                        "key_code": "left_control",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_control",
+                            "modifiers": [
+                                "left_alt"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
